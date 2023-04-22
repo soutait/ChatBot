@@ -11,6 +11,7 @@ tenki_data = requests.get(url, params=payload).json()
 
 #print(tenki_data)      --すべてのデータがjson形式で出力される
 
+
 #タイトル(県名出力)
 print(tenki_data["title"])
 
