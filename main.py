@@ -3,7 +3,6 @@ from linebot import LineBotApi
 from linebot.models import TextSendMessage
 import requests
 
-
 #-----------------------天気関係
 url = "https://weather.tsukumijima.net/api/forecast/city/120010"
 payload = {"city":"120010"}
